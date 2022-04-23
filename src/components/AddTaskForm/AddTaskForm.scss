@@ -1,0 +1,30 @@
+@use '../../styles/base.scss' as vars;
+
+
+.add-task-container{
+    margin-top:30px;
+    padding:20px;
+    border: 3px solid vars.$secondaryColor;
+    border-radius:10px;
+    width:800px;
+}
+
+.add-task-form{
+    display:flex;
+    width:100%;
+    height:100%;
+    justify-content:space-between;
+    gap:20px;
+
+    input{
+        display:block;
+        flex-grow:1;
+     
+    }
+
+
+    button{  
+        display:block;
+
+    }
+}

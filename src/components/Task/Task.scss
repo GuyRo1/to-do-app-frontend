@@ -1,0 +1,33 @@
+@use '../../styles/base.scss' as vars;
+
+
+.task-container{
+    height:50px;
+    width:100%;
+}
+
+.task-form{
+    display:flex;
+    width:100%;
+    gap:10px;
+   
+
+    div.checkBox{
+        display:block;
+        flex-grow:none;
+    }
+
+    div.checked{
+        color:vars.$secondaryColor;
+        text-decoration: line-through;
+    
+    }
+
+    div.unchecked{
+        color:vars.$mainColor;
+    }
+
+    button{   
+        display:block;
+    }
+}
